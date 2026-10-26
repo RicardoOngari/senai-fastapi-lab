@@ -47,8 +47,8 @@ jobs:
         with:
           push: true
           tags: |
-            ngaloni/senai_fastapi:latest
-            ngaloni/senai_fastapi:${{ github.sha }}
+            ricardoongari/senai_fastapi:latest
+            ricardoongari/senai_fastapi:${{ github.sha }}
 
       - name: Resumo do deploy
         run: |
