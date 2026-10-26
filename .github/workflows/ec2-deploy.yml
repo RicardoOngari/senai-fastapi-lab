@@ -29,7 +29,7 @@ jobs:
               --name senai_fastapi \
               --restart unless-stopped \
               -p 8080:8080 \
-              ngaloni/senai_fastapi:latest
+              ricardoongari/senai_fastapi:latest
 
             # Health check pós-deploy
             sleep 5
